@@ -9,6 +9,7 @@ namespace sweepStakesManager
     class  UserInterface
     {
         Contestant contestant = new Contestant();
+        string QueOrStack;
 
         public  void GetFirstName()
         {
@@ -28,6 +29,21 @@ namespace sweepStakesManager
         {
             Console.WriteLine("Please enter your email address");
             contestant.Email = Console.ReadLine();
+
+        }
+
+        public void ChooseQueueOrStack()
+        {
+            Console.WriteLine("Do you want to store the sweepstakes in a stack or queue?\n enter 1 for sweepstake or 2 for queue");
+            QueOrStack = Console.ReadLine().Trim();
+            switch (QueOrStack)
+            {
+                case "1":
+                    break;
+                case "2";
+                    break;
+
+            }
 
         }
 

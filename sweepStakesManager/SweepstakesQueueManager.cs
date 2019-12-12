@@ -10,14 +10,14 @@ namespace sweepStakesManager
     {
         Queue<Sweepstakes> newQueue = new Queue<Sweepstakes>();
 
-        public Sweepstakes GetSweepstakes()
+        public Sweepstakes GetSweepstakes(Sweepstakes sweepstakes)
         {
-            throw new NotImplementedException();
-        }
+            return newQueue.Dequeue();   
+        }    
 
         public void InsertSweepStakes(Sweepstakes sweepstakes)
         {
-            throw new NotImplementedException();
+            newQueue.Enqueue(sweepstakes);
         }
     }
 }

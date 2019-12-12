@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace sweepStakesManager
 {
-    class Contestant
+    public class Contestant
     {
         string fName;
         string lName;
