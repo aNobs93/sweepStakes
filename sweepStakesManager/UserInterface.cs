@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace sweepStakesManager
 {
-    class UserInterface
+    class  UserInterface
     {
         Contestant contestant = new Contestant();
 
-        public void GetFirstName()
+        public  void GetFirstName()
         {
             Console.WriteLine("Please enter your first name");
             contestant.FirstName = Console.ReadLine();
