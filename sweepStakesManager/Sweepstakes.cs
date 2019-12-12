@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace sweepStakesManager
 {
-    class Sweepstakes
+    public class Sweepstakes
     {
-
+        Dictionary<int, Contestant> contestants;
+        
         Sweepstakes(string name)
         {
+            
+            contestants = new Dictionary<int, Contestant>();
 
         }
 

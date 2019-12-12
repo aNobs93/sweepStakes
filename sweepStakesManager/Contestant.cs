@@ -39,6 +39,7 @@ namespace sweepStakesManager
 
         public int RegistrationNumber
         {
+            get { return registrationNumber; }
             set { registrationNumber = value; }
         }
     }
