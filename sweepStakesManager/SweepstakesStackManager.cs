@@ -10,7 +10,7 @@ namespace sweepStakesManager
     {
         Stack<Sweepstakes> newStack = new Stack<Sweepstakes>();
 
-        public Sweepstakes GetSweepstakes(Sweepstakes sweepstakes)
+        public Sweepstakes GetSweepstakes()
         {
             return newStack.Pop();
         }
