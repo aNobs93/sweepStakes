@@ -13,7 +13,6 @@ namespace sweepStakesManager
         string email;
         string address;
         int registrationNumber;
-        Contestant contestant;
         public string FirstName
         {
             get { return fName; }
@@ -42,10 +41,6 @@ namespace sweepStakesManager
         {
             get { return registrationNumber; }
             set { registrationNumber = value; }
-        }
-        public Contestant()
-        {
-             contestant = new Contestant();
         }
 
 

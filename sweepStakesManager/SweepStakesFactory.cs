@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace sweepStakesManager
 {
-    class SweepStakesFactory
+    public static class SweepStakesFactory
     {
-        public ISweepstakesManager PickQueueOrStackStorageToStore( string choice)
+        public static ISweepstakesManager PickQueueOrStackStorageToStore( string choice)
         {
             choice = UserInterface.ChooseQueueOrStack();
             switch (choice)

@@ -37,16 +37,6 @@ namespace sweepStakesManager
             string QueOrStack;
             Console.WriteLine("Do you want to store the sweepstakes in a stack or queue?\n enter 1 for Stack or 2 for Queue");
             return QueOrStack = Console.ReadLine().Trim();
-            //switch (QueOrStack)
-            //{
-            //    case "1":
-                    
-            //        break;
-            //    case "2":
-
-            //        break;
-
-            //}
 
         }
 

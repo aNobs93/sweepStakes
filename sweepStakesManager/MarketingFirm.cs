@@ -16,16 +16,6 @@ namespace sweepStakesManager
             sweepstakesManager.GetSweepstakes();
         }
 
-        //public void AddToQueue(Sweepstakes sweepstakes)
-        //{
-        //    SweepstakesQueueManager queueManager = new SweepstakesQueueManager();
-        //}
-
-        //public void AddToStack(Sweepstakes sweepstakes)
-        //{
-
-        //}
-
 
     }
 }
