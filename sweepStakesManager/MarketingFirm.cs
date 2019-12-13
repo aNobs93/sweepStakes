@@ -18,7 +18,7 @@ namespace sweepStakesManager
 
         //public void AddToQueue(Sweepstakes sweepstakes)
         //{
-        //    sweepstakesManager.
+        //    SweepstakesQueueManager queueManager = new SweepstakesQueueManager();
         //}
 
         //public void AddToStack(Sweepstakes sweepstakes)

@@ -6,44 +6,53 @@ using System.Threading.Tasks;
 
 namespace sweepStakesManager
 {
-    class  UserInterface
+    static class UserInterface
     {
-        Contestant contestant = new Contestant();
-        string QueOrStack;
 
-        public  void GetFirstName()
+        //Contestant contestant = new Contestant();
+        
+
+        public static void GetFirstName(Contestant contestant)
         {
             Console.WriteLine("Please enter your first name");
             contestant.FirstName = Console.ReadLine();
             
         }
 
-        public void GetLastName()
+        public static void GetLastName(Contestant contestant)
         {
             Console.WriteLine("Please enter your last name");
             contestant.LastName = Console.ReadLine();
         }
 
-        public void GetEmailAddress()
+        public static void GetEmailAddress(Contestant contestant)
         {
             Console.WriteLine("Please enter your email address");
             contestant.Email = Console.ReadLine();
 
         }
 
-        public void ChooseQueueOrStack()
+        public static string ChooseQueueOrStack()
         {
+            string QueOrStack;
             Console.WriteLine("Do you want to store the sweepstakes in a stack or queue?\n enter 1 for Stack or 2 for Queue");
-            QueOrStack = Console.ReadLine().Trim();
-            switch (QueOrStack)
-            {
-                case "1":
-                    break;
-                case "2":
-                    break;
+            return QueOrStack = Console.ReadLine().Trim();
+            //switch (QueOrStack)
+            //{
+            //    case "1":
+                    
+            //        break;
+            //    case "2":
 
-            }
+            //        break;
 
+            //}
+
+        }
+
+        public static void NotAnAnswer()
+        {
+            Console.WriteLine("Not a valid answer.");
         }
 
 
