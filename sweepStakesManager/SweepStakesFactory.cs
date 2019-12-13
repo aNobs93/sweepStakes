@@ -8,7 +8,7 @@ namespace sweepStakesManager
 {
     public static class SweepStakesFactory
     {
-        public static ISweepstakesManager PickQueueOrStackStorageToStore( string choice)
+        public static ISweepstakesManager PickQueueOrStackStorageToStore(string choice)
         {
             choice = UserInterface.ChooseQueueOrStack();
             switch (choice)
